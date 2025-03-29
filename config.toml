@@ -83,25 +83,25 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
-      icon      = "envelope" # icon name without the 'fa-'   # linkedin, ssrn, homepage,
+      icon      = "envelope"
       icon_pack = "far"
       url       = "mailto:simon.schoelzel@wiwi-uni-muenster.de"
   [[params.social]]
-      icon      = "github" # icon name without the 'fa-'   # linkedin, ssrn, homepage,
+      icon      = "github"
       icon_pack = "fab"
       url       = "https://github.com/simonschoe"
   [[params.social]]
-      icon      = "linkedin" # icon name without the 'fa-'
+      icon      = "linkedin"
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/simon-schoelzel/"
   [[params.social]]
-      icon      = "soundcloud" # icon name without the 'fa-'
+      icon      = "soundcloud"
       icon_pack = "fab"
       url       = "https://soundcloud.com/sims0l0n"
-  #[[params.social]]
-  #    icon      = "ssrn" # icon name without the 'fa-'
-  #    icon_pack = "ai"
-  #    url       = "xxx"
+  [[params.social]]
+      icon      = "ssrn"
+      icon_pack = "ai"
+      url       = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5259754"
 
 [taxonomies]
   category = "categories"
@@ -121,10 +121,15 @@ enableEmoji = true
     url = "/projects/"
     weight = 2
   [[menu.header]]
+    name = "Research"
+    title = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.header]]
     name = "Teaching"
     title = "Teaching"
     url = "/teaching/"
-    weight = 3
+    weight = 4
   #[[menu.header]]
   #  name = "Notes"
   #  title = "Notes"
@@ -134,7 +139,7 @@ enableEmoji = true
     name = "Kabuff"
     title = "Kabuff"
     url = "/kabuff/"
-    weight = 4
+    weight = 5
 
   # Configure footer
   [[menu.footer]]
