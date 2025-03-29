@@ -3,7 +3,8 @@ action_label: About Me &rarr;
 action_link: /about
 action_type: text # or button 
 description: |
-  I am a final year PhD student intrigued by practical problems at the intersection of data science, machine learning, and accounting. As an educator, I try to empower others to discover and embrace the merits of data and AI. As a researcher, I explore how machine learning can inform managerial decision-making and help make complex phenomena measurable.
+  Data Scientist, currently building AI products to inform decision making @ Provinzial. Fascinated by hard problems that require business insight, data and a scientific mindset. Passionate about empowering others to discover and embrace the benefits of data and AI.<br><br>
+  I hold a Ph.D. in Accounting from the University of Münster, where I conducted research at the intersection of accounting, data science, and machine learning. I have designed and taught courses on machine learning, data literacy, and insurance economics.
 image_left: true
 images:
 - img/home.jfif
