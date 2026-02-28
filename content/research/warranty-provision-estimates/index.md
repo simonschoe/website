@@ -1,5 +1,5 @@
 ---
-author: Martin Becker and Simon Schölzel
+author: Martin Becker & Simon Schölzel
 categories:
 - Research
 date: "2025-01-01"
@@ -12,15 +12,11 @@ excerpt: |
 featured: true
 layout: single
 links:
-- icon: ssrn
-  icon_pack: ai
-  name: Preprint
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5056018
 - icon: file-pdf
   icon_pack: fa
   name: Publication
   url: https://doi.org/10.1080/09638180.2024.2444521
-location: European Accounting Review, Forthcoming 
+location: European Accounting Review, Vol. 34 (2025), No. 5
 show_post_time: false
 subtitle: 
 title: "Warranty Provisions: Machine-Learning versus Human Estimates"

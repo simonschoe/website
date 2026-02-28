@@ -83,10 +83,6 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
-      icon      = "envelope"
-      icon_pack = "far"
-      url       = "mailto:simon.schoelzel@wiwi-uni-muenster.de"
-  [[params.social]]
       icon      = "github"
       icon_pack = "fab"
       url       = "https://github.com/simonschoe"
