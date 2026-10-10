@@ -1,7 +1,7 @@
 ---
 author: Simon Schölzel
 categories:
-- Project
+- Research
 date: 2024-01-19
 date_end: 2024-01-19
 draft: false
@@ -14,8 +14,7 @@ links:
 - icon: file-pdf
   icon_pack: fa
   name: PDF
-  url: project/dissertation/central-theme.pdf
-location: J 476 C, University of Münster
+  url: research/machine-learning-applications-in-accounting/central-theme.pdf
 show_post_time: false
 subtitle: 
 title: "Machine Learning Applications in Accounting"
