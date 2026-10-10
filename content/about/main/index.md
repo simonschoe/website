@@ -2,30 +2,53 @@
 ## Configure page content in wide column
 title: |
   <style>
-    .typewriter {
-      overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid orange; /* The typewriter cursor */
-      white-space: nowrap; /* Keeps the content on a single line */
-      letter-spacing: .0em; /* Adjust as needed */
-      animation:
-        typing 4s steps(24) 1s 1 normal both,
-        blink-caret .75s steps(44) infinite normal;
+    .typewriter { position: relative; }
+    .typewriter.tw-on .tw-ghost { visibility: hidden; }
+    .tw-typed { position: absolute; inset: 0; }
+    .tw-typed::after {
+      content: "";
+      display: inline-block;
+      width: .06em;
+      height: .85em;
+      margin-left: .06em;
+      vertical-align: -.04em;
+      background: orange;
+      transition: opacity .6s ease;
     }
-
-    /* The typing effect */
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 7.8em } /* Manually set to stop after last character */
-    }
-
-    /* The typewriter cursor effect */
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: orange }
-    }
+    .tw-typed.tw-done::after { animation: tw-blink 1s steps(1) 3; }
+    .tw-typed.tw-gone::after { opacity: 0; }
+    @keyframes tw-blink { 50% { opacity: 0; } }
   </style>
 
-  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;">Hi, I’m Simon. 🪄</h1>
+  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;" aria-label="Hi, I’m Simon. 🪄"><span class="tw-ghost" aria-hidden="true">Hi, I’m Simon. 🪄</span></h1>
+
+  <script>
+    (function () {
+      var h = document.querySelector(".typewriter");
+      if (!h || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      var chars = Array.from(h.textContent); // keeps the emoji in one piece
+      var out = document.createElement("span");
+      out.className = "tw-typed";
+      out.setAttribute("aria-hidden", "true");
+      h.appendChild(out);
+      h.classList.add("tw-on");
+      var i = 0;
+      function next() {
+        if (i === chars.length) {
+          out.classList.add("tw-done");
+          setTimeout(function () { out.classList.add("tw-gone"); }, 3000);
+          return;
+        }
+        var c = chars[i++];
+        out.textContent += c;
+        // human rhythm: slight jitter, a beat after punctuation
+        var delay = 55 + Math.random() * 45;
+        if (c === "," || c === ".") delay += 280;
+        setTimeout(next, delay);
+      }
+      setTimeout(next, 500);
+    })();
+  </script>
 number_featured: 2 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 10 # set to zero to exclude
