@@ -1,0 +1,44 @@
+// Project overrides, imported last by the theme's scaffold.scss.
+// Note: after creating/removing this file, delete resources/_gen/assets/ so Hugo rebuilds the CSS.
+
+// Softer link underlines
+.page-main a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+  text-decoration-color: rgba(43, 102, 73, .4);
+  transition: text-decoration-color .15s ease;
+}
+.page-main a:hover {
+  text-decoration-color: currentColor;
+}
+
+// Research/teaching card titles: no underline until hovered
+article h1.underline,
+article h1.underline a {
+  text-decoration: none;
+}
+article h1.underline a:hover {
+  text-decoration: underline;
+}
+
+// Lighter dividers, matching the header line
+.page-main [class~="bt"],
+.page-main [class~="bb"] {
+  border-color: rgba(0, 0, 0, .1) !important;
+}
+.page-main hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+// Pill-shaped buttons with a faint tint on hover (instead of the theme's solid fill)
+.post-header a.btn-links,
+article footer a.btn-links {
+  border-radius: 999px;
+  padding: .45rem 1rem;
+}
+.post-header a.btn-links:hover,
+article footer a.btn-links:hover {
+  background-color: rgba(0, 0, 0, .05);
+  color: rgb(47, 76, 62); // keep the button's normal text colour (theme heading colour)
+}
