@@ -20,7 +20,7 @@ title: |
     @keyframes tw-blink { 50% { opacity: 0; } }
   </style>
 
-  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;" aria-label="Hi, I’m Simon. 🪄"><span class="tw-ghost" aria-hidden="true">Hi, I’m Simon. 🪄</span></h1>
+  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;" aria-label="Hi, I’m Simon. 🤗"><span class="tw-ghost" aria-hidden="true">Hi, I’m Simon. 🤗</span></h1>
 
   <script>
     (function () {
@@ -54,65 +54,39 @@ use_featured: false # if false, use most recent by date
 number_categories: 10 # set to zero to exclude
 show_intro: true
 intro: |
-  I am a data scientist at Provinzial where I work on RAG systems and domain-specific AI applications. I am driven by curiosity and approach my work with a [scientific mindset](https://hbr.org/2022/05/act-like-a-scientist). I enjoy deep work and continuously learning new things.
-  
-  I hold a PhD in Accounting. In my [research](/research), I have broadly focused on measurement problems in accounting. I have applied traditional quantitative methods as well as novel techniques from machine learning, natural language processing, interpretable machine learning, and causal machine learning to evaluate the prediction of accounting estimates, the analysis of corporate narratives, and the estimation of causal effects.
+  I am a Data Scientist & AI Engineer at Provinzial, where I work on the enterprise GenAI platform, document processing, RAG, MCP infrastructure, and domain-specific AI products. I translate business needs into AI use cases, design end-to-end solutions, carry out compliance assessments, and seek to promote GenAI adoption across the organization.<br><br>
+  I am driven by a deep curiosity and approach my work with a [scientific mindset](https://hbr.org/2022/05/act-like-a-scientist). I enjoy hard problems, cross-team collaboration, and constantly learning new things.<br><br>
+  I hold a Ph.D. in Accounting from the University of Münster. In my [research](/research), I have focused on measurement problems in accounting. I have designed and taught [courses](/teaching) on machine learning, data literacy, and insurance economics.
   
   ---
 
-  1. *Data Ingestion & Processing*<br>
-  <font size="3.5">
-  Web Scraping: [rvest](https://rvest.tidyverse.org/), [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/), [Selenium](https://selenium-python.readthedocs.io/)<br>
-  Streaming: [Apache Kafka](https://kafka.apache.org/)<br>
-  Query Languages: SQL
+  1. *GenAI & Agents*<br>
+  <font size="3">
+  Agent Frameworks & Protocols: [Pydantic AI](https://ai.pydantic.dev/), [Model Context Protocol](https://modelcontextprotocol.io/)<br>
+  AI Evals: [Pydantic Evals](https://ai.pydantic.dev/evals/)<br>
+  LLM Platforms: [Microsoft Foundry](https://azure.microsoft.com/en-us/products/ai-foundry), [Amazon Bedrock](https://aws.amazon.com/bedrock/)<br>
+  Retrieval & Search: [Elasticsearch](https://www.elastic.co/elasticsearch)
   </font>
   
-  2. *Data Analysis & Visualization*<br>
-  <font size="3.5">
-  Data Wrangling: [pandas](https://pandas.pydata.org/), [tidyverse](https://www.tidyverse.org/)<br>
-  Plotting Libraries: [ggplot2](https://ggplot2.tidyverse.org/)<br>
-  Dashboards & Visual Analytics: [Kibana](https://www.elastic.co/kibana)
-  </font> 
-  
-  3. *Machine Learning & Statistical Modeling*<br>
-  <font size="3.5">
-  Machine Learning: [tidymodels](https://www.tidymodels.org/), [scikit-learn](https://scikit-learn.org/stable/), [DoubleML](https://docs.doubleml.org/stable/index.html)<br>
-  Model Interpretability: [DALEX](https://dalex.drwhy.ai/)<br>
-  Data Labeling: [prodigy](https://prodi.gy/)
+  2. *Machine Learning & NLP*<br>
+  <font size="3">
+  Machine / Deep Learning: [scikit-learn](https://scikit-learn.org/), [PyTorch](https://pytorch.org/), [transformers](https://huggingface.co/docs/transformers/index)<br>
+  Causal Machine Learning: [DoubleML](https://docs.doubleml.org/stable/index.html)<br>
+  NLP & Labeling: [spaCy](https://spacy.io/), [Prodigy](https://prodi.gy/)<br>
+  Data Wrangling: [tidyverse](https://www.tidyverse.org/), [pandas](https://pandas.pydata.org/)
   </font>
   
-  4. *Deep Learning & Natural Language Processing*<br>
-  <font size="3.5">
-  DL Frameworks: [pytorch](https://pytorch.org/), [transformers](https://huggingface.co/docs/transformers/index)<br>
-  NLP: [spacy](https://spacy.io/)
+  3. *Backend & Platform*<br>
+  <font size="3">
+  APIs & Auth: [FastAPI](https://fastapi.tiangolo.com/), [OAuth 2.0](https://oauth.net/2/)<br>
+  DevOps: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Argo CD](https://argo-cd.readthedocs.io/)
   </font>
   
-  5. *Experimentation & Prototyping*<br>
-  <font size="3.5">
-  Experiment Tracking: [Weights & Biases](https://wandb.ai/site)<br>
-  Interactive Prototyping: [gradio](https://www.gradio.app/)
-  </font> 
-  
-  6. *Reproducibility & Documentation*<br>
-  <font size="3.5">
-  Literate Programming: [Jupyter Notebooks](https://jupyter.org/), [R Markdown](https://rmarkdown.rstudio.com/)
-  </font>
-  
-  7. *Software Engineering & APIs*<br>
-  <font size="3.5">
-  API Development: [FastAPI](https://fastapi.tiangolo.com/)<br>
-  Version Control: [Git](https://git-scm.com/)
-  </font>
-  
-  8. *MLOps & Deployment*<br>
-  <font size="3.5">
-  CI/CD & Orchestration: Kubernetes, ArgoCD
-  </font>
-  
-  9. *Infrastructure & Observability*<br>
-  <font size="3.5">
-  Monitoring & Logging: Dynatrace, [Kibana](https://www.elastic.co/kibana)<br>
-  Search & Analytics Databases: [Elasticsearch](https://www.elastic.co/elasticsearch)<br>
+  4. *Streaming & Observability*<br>
+  <font size="3">
+  Event Streaming: [Apache Kafka](https://kafka.apache.org/)<br>
+  Instrumentation: [OpenTelemetry](https://opentelemetry.io/)<br>
+  Traces & Logs: [Dynatrace](https://www.dynatrace.com/), [Kibana](https://www.elastic.co/kibana)
   </font>
   
 show_outro: false

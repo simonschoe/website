@@ -1,14 +1,14 @@
 ---
 title: Teaching
 subtitle: Subtitle
-description: A list of the courses and workshops I drafted and taught.
+description: A list of the courses and workshops I designed and taught.
 author: 
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
 show_author_byline: false
 show_post_date: false
 # for listing page layout
-layout: list-sidebar
+layout: list
 # set up common front matter for all individual pages in series
 cascade:
   type: collection
