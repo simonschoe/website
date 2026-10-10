@@ -16,7 +16,7 @@ links:
   icon_pack: fa
   name: Publication
   url: https://link.springer.com/article/10.1007/s11846-026-00988-0
-location: Review of Managerial Science, Forthcoming
+location: Review of Managerial Science, Vol. 20 (2026)
 show_post_time: false
 subtitle: 
 title: "Value-Based Management Sophistication, Risk Management, and Shareholder Value: Evidence from Credit Ratings"
