@@ -7,7 +7,7 @@ cascade:
   show_post_date: true
   show_post_time: false
 description: |
-  Research studies from my PhD.
+  Research studies from my Ph.D.
 layout: list
 show_author_byline: true
 show_button_links: true

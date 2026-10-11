@@ -20,7 +20,7 @@ title: |
     @keyframes tw-blink { 50% { opacity: 0; } }
   </style>
 
-  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;" aria-label="Hi, I’m Simon. 🤗"><span class="tw-ghost" aria-hidden="true">Hi, I’m Simon. 🤗</span></h1>
+  <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns typewriter" style="font-family: inherit;" aria-label="Hi, I'm Simon. 🦦"><span class="tw-ghost" aria-hidden="true">Hi, I'm Simon. 🦦</span></h1>
 
   <script>
     (function () {
